@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atividade 07</title>
+  </head>
+  <body>
+    <h1>Salario Liquido</h1>
+    <p>
+      Faça um Programa que pergunte quanto você ganha por hora e o número de
+      horas trabalhadas no mês. Calcule e mostre o total do seu salário no
+      referido mês, sabendo-se que são descontados 11% para o Imposto de Renda,
+      8% para o INSS e 5% para o sindicato, faça um programa que nos dê:
+    </p>
+    <ul>
+      <li>salário bruto.</li>
+      <li>quanto pagou ao INSS.</li>
+      <li>quanto pagou ao sindicato.</li>
+      <li>o salário líquido.</li>
+    </ul>
+    <p>Calcule os descontos e o salario liquido conforme, a tabela abaixo:</p>
+    <ul>
+      <li> + Salário Bruto : R$</li>
+      <li> - IR (11%) : R$</li>
+      <li> - INSS (8%) : R$</li>
+      <li> - Sindicato (5%) : R$</li>
+      <li> = Salário Liquido : R$</li>
+      <br />
+    </ul>
+    <p>Obs.: Salário Bruto - (IR + INSS + Sindicato) = Salário Líquido.</p>
+    <br>
+    <form>
+     Salario Bruto: <input id="salario-bruto" type="number">
+     <br>
+     <br>
+     <button type="button" onclick="CalcularSalario()";>CalcularSalario</button>
+
+     <div id="resposta"></div>
+    </form>
+    <script src="js07.js"></script>
+  </body>
+</html>
