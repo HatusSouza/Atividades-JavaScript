@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 24 </title>
+</head>
+<body>
+    <h1>Media de Alunos</h1>
+    <p>Faça um programa que calcule o número médio de alunos por turma. Para isto, peça a quantidade de turmas e a quantidade de alunos para cada turma. As turmas não podem ter mais de 40 alunos.</p>
+ <form>
+        Quantidades de Turmas: <input id="turmas"type="number" min="1" max="40" onchange="CriarTurmas()"><br>
+       <br> <button type="button" onclick="MediaAlunos()">Calcular Média</button>
+       <div id="campos"></div>
+    </form>
+    <div id="resposta"></div>
+<script src="24.js"></script>
+</body>
+</html>
