@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 15 </title>
+</head>
+<body>
+    <h1>Conceito</h1>
+    <p>Faça um programa que lê as duas notas parciais obtidas por um aluno numa disciplina ao longo de um semestre, e calcule a sua média. A atribuição de conceitos obedece à tabela abaixo:</p>
+    
+    <pre>
+        Média de Aproveitamento  Conceito
+  Entre 9.0 e 10.0          A
+  Entre 7.5 e 9.0           B
+  Entre 6.0 e 7.5           C
+  Entre 4.0 e 6.0           D
+  Entre 4.0 e zero          E
+    </pre>
+    <p>O algoritmo deve mostrar na tela as notas, a média, o conceito correspondente e a mensagem “APROVADO” se o conceito for A, B ou C ou “REPROVADO” se o conceito for D ou E.
+    </p>
+    <form>
+        Nota 1:<input id="nota-1"type="number"><br>
+        Nota 2:<input id="nota-2"type="number"><br>
+        <button type="button" onclick="Conceito()">Verificar Conceito</button>
+    </form>
+    <div id="resposta"></div>
+<script src="15.js"></script>
+</body>
+</html>
