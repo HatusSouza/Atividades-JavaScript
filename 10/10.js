@@ -9,7 +9,7 @@ function VerificarTamanho(){
         tamanhoTexto="M - Média"
 
     }
-  else if(tamanho=="p"){
+  else if(tamanho.ToUpperCase()=="P"){
       tamanhoTexto= "p - pequena"
   }
   else{
